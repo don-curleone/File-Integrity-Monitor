@@ -13,5 +13,11 @@ git clone https://github.com/don-curleone/File-Integrity-Monitor.git
 cd File-Integrity-Monitor
 ````
 
-## Working
+## baseline.json
+Retrieve the absolute path of the file you intend to monitor. Compute its SHA256 hash and store it in <code>baseline.json</code>. The program iterates through the paths and  
+compares the baseline hashes to the latest hashes.
+<br/>
+<i>Note: some paths may require root access.</i>\
 
+## Configuration
+Automate the process according to your preferences. Personally, I've set up the system to send emails every time the device starts up.
