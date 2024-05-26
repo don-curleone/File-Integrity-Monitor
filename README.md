@@ -4,7 +4,9 @@ FIM(File Integrity Monitor) checks the integrity of the file by calculating its 
 
 ## Requirements
 Linux OS
+...
 Python 3.7 or higher
+...
 Required Python packages: hashlib, json, smptblib, email, datetime
 
 ## Installation
