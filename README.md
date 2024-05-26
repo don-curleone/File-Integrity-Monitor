@@ -3,14 +3,12 @@
 FIM(File Integrity Monitor) checks the integrity of the file by calculating its SHA256 hash and comparing it with a baseline hash. The baseline state is defined in a JSON file (baseline.json) that contains the absolute paths of the files and their corresponding hash values.
 
 ## Requirements
-Linux OS
-...
-Python 3.7 or higher
-...
+Linux OS<br/>
+Python 3.7 or higher<br/>
 Required Python packages: hashlib, json, smptblib, email, datetime
 
 ## Installation
-````
+````shell
 git clone https://github.com/don-curleone/File-Integrity-Monitor.git
 cd File-Integrity-Monitor
 ````
