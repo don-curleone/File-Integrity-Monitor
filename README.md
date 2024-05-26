@@ -8,10 +8,10 @@ Python 3.7 or higher
 Required Python packages: hashlib, json, smptblib, email, datetime
 
 ## Installation
-code(
+''''shell
 git clone https://github.com/don-curleone/File-Integrity-Monitor.git
 cd File-Integrity-Monitor
-)
+''''
 
 ## Working
 
